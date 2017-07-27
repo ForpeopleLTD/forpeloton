@@ -1,0 +1,91 @@
+$easeIn: cubic-bezier(0,0.2,0,1);
+$time: 1.5s;
+$time2: 1s;
+$loopTime: 10s;
+$anim1Delay: 1.7s;
+$anim1Delay2: 3s;
+$anim1Delay3: 6s;
+$anim1Delay4: 8s;
+
+
+@keyframes motif1 {
+  0%{  transform::(translate3d($cellWidth,0,0)); opacity: 0; }
+  10%{ opacity: 1;}
+  33%{  transform:(translate3d($cellWidth,$cellHeight,0)); }
+  66%{   transform:(translate3d(0,$cellHeight,0)); }
+  100%{  transform:(translate3d(0,0,0)); }
+}
+
+
+@keyframes motif2  {
+  0%{  transform:(translate3d($cellWidth*2,$cellHeight,0)); opacity: 0;  }
+  10%{ opacity: 1;}
+  33%{  transform:(translate3d($cellWidth,$cellHeight,0));  }
+  66%{  transform:(translate3d($cellWidth,0,0));   }
+  100%{  transform:(translate3d(0,0,0));   }
+}
+
+
+@keyframes motif6 {
+  0%{   transform:(translate3d($cellWidth*2,$cellHeight,0)); opacity: 0;}
+  10%{   opacity: 1;}
+  50%{    transform:(translate3d($cellWidth,$cellHeight,0));  }
+  100%{    transform:(translate3d(0,0,0));}
+}
+
+
+@keyframes motif9 {
+  0%{    transform:(translate3d(-$cellWidth,$cellHeight,0)); opacity: 0;}
+  10%{ opacity: 1;}
+  50%{    transform:(translate3d(-$cellWidth,0,0)); }
+  100%{    transform:(translate3d(0,0,0)); }
+}
+
+  @keyframes motif10 {
+  0%{    transform:(translate3d(-$cellWidth*2,$cellHeight*2, 0)); opacity: 0;}
+  10%{ opacity: 1;}
+  33%{    transform:(translate3d(-$cellWidth,$cellHeight ,0)); }
+  66%{    transform:(translate3d(0,$cellHeight,0)); }
+  100%{    transform:(translate3d(0,0,0)); }
+}
+  @keyframes motif14 {
+  0%{    transform:(translate3d(-$cellWidth,-$cellHeight,0)); opacity: 0; }
+  10%{ opacity: 1;}
+  50%{    transform:(translate3d(0,-$cellHeight,0)); }
+  100%{    transform:(translate3d(0,0,0)); }
+}
+
+  @keyframes motif15 {
+  0%{    transform:(translate3d($cellWidth,-$cellHeight,0)); opacity: 0; }
+  10%{ opacity: 1;}
+  50%{    transform:(translate3d($cellWidth,0,0));}
+  100%{    transform:(translate3d(0,0,0)); }
+}
+  @keyframes motif16 {
+  0%{    transform:(translate3d($cellWidth*2,-$cellHeight,0)); opacity: 0; }
+  10%{ opacity: 1;}
+  33%{    transform:(translate3d($cellWidth,-$cellHeight,0)); }
+  66%{    transform:(translate3d($cellWidth,0,0)); }
+  100%{    transform:(translate3d(0,0,0)); }
+}
+  @keyframes motif17 {
+  0%{     transform:(translate3d(-$cellWidth,$cellHeight,0)); opacity: 0;  }
+  10%{ opacity: 1;}
+  33%{    transform:(translate3d(-$cellWidth,-$cellHeight,0));   }
+  66%{    transform:(translate3d(0,-$cellHeight,0));}
+  100%{    transform:(translate3d(0,0,0));}
+}
+
+  @keyframes motif18 {
+    0%{    transform:(translate3d($cellWidth,$cellHeight,0)); opacity: 0; }
+    10%{ opacity: 1; }
+    50%{    transform:(translate3d($cellWidth,0,0)); }
+    100%{    transform:(translate3d(0,0,0)); }
+}
+  @keyframes motif19 {
+  0%{    transform:(translate3d($cellWidth*2,$cellHeight,0)); opacity: 0; }
+  10%{ opacity: 1;}
+  33%{    transform:(translate3d($cellWidth,$cellHeight,0)); }
+  66%{    transform:(translate3d($cellWidth,0,0)); }
+  100%{    transform:(translate3d(0,0,0)); }
+}

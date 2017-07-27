@@ -1,0 +1,20 @@
+$white: #fff;
+$black: #000;
+
+$darkGrey: #303030;
+$mustardYellow: #ffc915;
+
+$motifHeight: 500px;
+$motifWidth: 300px;
+
+
+$cellWidth: $motifWidth/4;
+$cellHeight: $motifHeight/5;
+$footerHeight: 400px;
+
+
+$bezier-in1: cubic-bezier(.17,.67,.52,.86);
+$bezier-inout: cubic-bezier(.24,.54,.87,.59);
+
+$animTiming: .25s;
+$easeIn: cubic-bezier(0,0.2,0,1);

@@ -1,0 +1,44 @@
+$containerPadding: 40px;
+$cols: 16;
+$margin: 30px;
+$bp1: 300px;
+$bp2: 768px;
+$bp3: 1024px;
+$bp4: 1400px;
+
+@mixin row(){
+  padding: 0;
+
+    @media all and (min-width: $bp2){
+        padding: 0 $containerPadding;
+    }
+
+  @include clearfix;
+}
+
+@mixin cell($colAmount){
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 0 $margin/2;
+  width: 100%/$cols*$colAmount;
+}
+
+
+@mixin offset($colAmount){
+  margin-left: 100%/$cols*$colAmount;
+}
+
+@mixin postset($colAmount){
+  margin-right: 100%/$cols*$colAmount;
+}
+
+.row {
+  @include row();
+}
+
+.container {
+  min-width: $bp1;
+  max-width: $bp3;
+  margin: 0 auto;
+}

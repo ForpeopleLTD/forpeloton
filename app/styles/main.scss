@@ -4,8 +4,10 @@
 @import "fonts";
 @import "grid";
 @import "variables";
+@import "styles";
 @import "motif";
 @import "animation";
+@import "chevron";
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -16,12 +18,10 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
   font-family: "Avenir LT W01_65 Medium1475532";
   text-align: center;
-  -webkit-font-smoothing: antialiased;
-  background-color: #fafafa;
+  color: black;
+
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

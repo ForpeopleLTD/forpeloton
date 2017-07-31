@@ -1,0 +1,126 @@
+section{
+  width: 100%;
+  display: table;
+  margin: 0;
+  height: 100vh;
+  top:0;
+}
+
+
+.landing{
+  background-color: $mustardYellow;
+}
+
+
+.top-padding{
+  padding-top: 150px;
+}
+
+.sponsorship{
+  padding-top: 10vh;
+  background-color: black;
+  height:105vh;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+
+  .left{
+    text-align: left;
+
+  }
+  .right{
+    text-align: right;
+  }
+  .yellow{
+    color: $mustardYellow;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.68em;
+    letter-spacing: 0.22em;
+    padding-top: 10px;
+  }
+
+  .donations{
+    letter-spacing: 0.15;
+  }
+
+  .target{
+    cursor: pointer;
+    padding: 10px 8px 9px;
+    margin-top: 10px;
+    background-color: $mustardYellow;
+
+  }
+
+
+
+  h1{
+    font-family:'Avenir LT W02 95 Black';
+    font-size: 2em;
+    letter-spacing: 0.2em;
+  }
+
+  h3{
+    font-family:'Avenir LT W02 95 Black';
+
+  }
+
+a{
+  display: block;
+  content: normal;
+
+}
+
+
+a.link:visited{text-decoration: none;}
+
+a.link {
+  display: inline-block;
+  cursor: pointer;
+  color: $mustardYellow;
+  text-decoration: none;
+
+}
+
+a.link:after{
+  content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .3s ease-in-out;
+
+}
+
+a.link:hover:after{
+width: 100%;
+background: $mustardYellow;
+border-radius: 2px;
+
+}
+
+
+}
+
+.content{
+  background-color: white;
+  padding-bottom: 25vh;
+}
+
+
+
+.image{
+  padding-top: 15vh;
+  width: inherit;
+}
+
+.caption{
+  padding-top: 15vh;
+  // font-family:'Avenir LT W01 35 Light';
+  // text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: left;
+  // font-style: italic;
+  color: grey;
+}
